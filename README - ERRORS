@@ -1,0 +1,30 @@
+Hi All,
+
+trying the class in order to create a new SObject i get this error, related to object's Name type:
+
+17:03:41.864 (973903191)|USER_DEBUG|[13447]|DEBUG|>_> response_x: createMetadataResponse_element:
+[apex_schema_type_info=(http://soap.sforce.com/2006/04/metadata, true, false), 
+field_order_type_info=(result),
+result=(SaveResult:[apex_schema_type_info=(http://soap.sforce.com/2006/04/metadata, true, false), 
+
+errors=(Error:[apex_schema_type_info=(http://soap.sforce.com/2006/04/metadata, true, false), 
+extendedErrorDetails=null, 
+extendedErrorDetails_type_info=(extendedErrorDetails, http://soap.sforce.com/2006/04/metadata, null, 0, -1, false), 
+field_order_type_info=(extendedErrorDetails, fields, message, statusCode), 
+fields=null, 
+fields_type_info=(fields, http://soap.sforce.com/2006/04/metadata, null, 0, -1, false), message=Must specify a nameField of type Text or AutoNumber, 
+message_type_info=(message, http://soap.sforce.com/2006/04/metadata, null, 1, 1, false), 
+statusCode=FIELD_INTEGRITY_EXCEPTION, 
+statusCode_type_info=(statusCode, http://soap.sforce.com/2006/04/metadata, null, 1, 1, false)]), 
+errors_type_info=(errors, http://soap.sforce.com/2006/04/metadata, null, 0, -1, false), 
+field_order_type_info=(errors, fullName, success), 
+fullName=CreatedFromApex__c, 
+fullName_type_info=(fullName, http://soap.sforce.com/2006/04/metadata, null, 1, 1, false), 
+success=false, success_type_info=(success, http://soap.sforce.com/2006/04/metadata, null, 1, 1, false)]), 
+result_type_info=(result, http://soap.sforce.com/2006/04/metadata, null, 0, -1, false)]
+
+
+Someone had the same issue?
+
+thanks,
+Davide
